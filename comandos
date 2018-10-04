@@ -1,0 +1,45 @@
+Carpeta 3
+    Video 3: Nodemon  [npm install -g nodemon]
+    https://www.npmjs.com/package/nodemon
+
+    Video 7: [npm init]: Inicializa la aplicación y crea el package.json.
+    
+Carpeta 4
+    Video 7: Yargs [npm i yargs --save]
+    https://www.npmjs.com/package/yargs
+    
+    Video 11: colors [npm install colors]
+    https://www.npmjs.com/package/colors
+
+    Video 12:   [git init]: Inicializar la carpeta como repositorio.
+                [git status]: Visualizar a que archivos se les da seguimiento.
+                [git add]: Especificar archivos (stage) para hacer commit.
+                    + [ .] para especificar todos.
+                [git commit]: Realizar el commit. Hace respaldos locales.
+                    + [-m " "] para agregar un mensaje.
+                [git remote add origin https:]  Usar el comando al crear el repositorio en GitHub.
+                [git push]:Subir todos los cambios.
+                    + [-u origin master] para establecer el origin por defecto.
+
+Carpeta 5
+    Video 1: [npm install]: Instala paquetes.
+        + [--save] para que sean dependencias obligatorias de la aplicación.
+            +[<paquete1> <paquete2> ...] para instalarlas al mismo tiempo.
+    Video 11: [git tag]: Permite crear un tag para descargar el proyecto.
+        +[-a] para hacer una anotación.
+            +[v#.#.#] para escribir versión.
+        (puede incluir mensaje)
+        [git push --tags]: crea un nuevo tag en GitHub y aparece en release.
+        
+Carpeta 7
+    Video 4: express [npm i express --save]
+
+    Video 7: hb [npm install hbs --save]: Permite renderizar sintaxis de handlebars. Sitio web dinámico.
+    https://www.npmjs.com/package/hbs
+
+    Video 8: [nodemon <aplicación>]: Para actualizar en tiempo real.
+        + [-e <js,hbs,html,css,...] para indicar que extensiones de archivo debe detectar. 
+
+    Video 10: Heroku
+        [npm start]: Ejecuta el comando start declarada en el archivo package.json.
+        [npm run <comando>]: Ejecuta el comando declarado en package.json.
